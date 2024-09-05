@@ -44,3 +44,6 @@ plot_curve(Eq_sym)
 # major axis rotated counter clockwise by 3*pi/4
 Eq_sym = Eq(5*x1**2/8 +3*x1*x2/4 + 5*x2**2/8,1)
 plot_curve(Eq_sym)
+
+Eq_sym=Eq(3*x1**2/9+4*x1*x2/3+12*x2**2/8,1)
+plot_curve(Eq_sym)
