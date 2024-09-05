@@ -14,9 +14,8 @@ x1, x2 = symbols('x1 x2')
 
 def plot_curve(Eq_sym):
 
-    h_plot = plot_implicit(Eq_sym, (x1, -2.5, 2.5), (x2, -2.5, 2.5),\
-                           xlabel = '$\it{x_1}$', ylabel = '$\it{x_2}$') 
-    h_plot.show()
+    h_plot = plot_implicit(Eq_sym, (x1, -2.5, 2.5), (x2, -2.5, 2.5),xlabel = '$\it{x_1}$', ylabel = '$\it{x_2}$') 
+    # h_plot.show()
 
 #%% plot ellipses
 
